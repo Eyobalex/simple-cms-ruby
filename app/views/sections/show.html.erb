@@ -1,0 +1,63 @@
+
+<%= link_to("<< Back to List", sections_path, :class => 'back-link') %>
+
+<div class="section show">
+  <h2>Show Section</h2>
+
+  <table summary="Section detail view">
+    <tr>
+      <th>Name</th>
+      <td><%= @subject.name %></td>
+    </tr>
+    <tr>
+      <th>Position</th>
+      <td><%= @subject.position %></td>
+    </tr>
+    <tr>
+      <th>Visible?</th>
+      <td><%= @subject.visible ? 'true' : 'false' %></td>
+    </tr>
+    <tr>
+      <th>content Type</th>
+      <td><%= @subject.content_type %></td>
+    </tr>
+    <tr>
+      <th>Page</th>
+      <td><div>
+
+        <table summary="Page detail view">
+          <tr>
+            <th>Name</th>
+            <td><%= @subject.subject.name %></td>
+          </tr>
+          <tr>
+            <th>Position</th>
+            <td><%= @subject.subject.position %></td>
+          </tr>
+          <tr>
+            <th>Visible?</th>
+            <td><%= @subject.subject.visible ? 'true' : 'false' %></td>
+          </tr>
+          <tr>
+            <th>Created</th>
+            <td><%= @subject.subject.created_at %></td>
+          </tr>
+          <tr>
+            <th>Updated</th>
+            <td><%= @subject.subject.updated_at %></td>
+          </tr>
+        </table>
+
+      </div></td>
+    </tr>
+    <tr>
+      <th>Created</th>
+      <td><%= @subjec.subject.created_at %></td>
+    </tr>
+    <tr>
+      <th>Updated</th>
+      <td><%= @subject.updated_at %></td>
+    </tr>
+  </table>
+
+</div>

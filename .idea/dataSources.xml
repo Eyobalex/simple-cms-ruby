@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails simple_cms: development" uuid="b37b149b-fd0d-4ed8-926a-7e30f49fd488">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/simple_cms_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails simple_cms: production" uuid="815c7c1c-9d8c-46b9-bdf5-f81c49d1e32d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/simple_cms_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails simple_cms: test" uuid="38cb0ba2-832d-4d3b-b757-28ebffe7f13c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/simple_cms_test</jdbc-url>
+    </data-source>
+  </component>
+</project>
