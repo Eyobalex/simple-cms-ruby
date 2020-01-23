@@ -7,19 +7,19 @@
   <table summary="Section detail view">
     <tr>
       <th>Name</th>
-      <td><%= @subject.name %></td>
+      <td><%= @section.name %></td>
     </tr>
     <tr>
       <th>Position</th>
-      <td><%= @subject.position %></td>
+      <td><%= @section.position %></td>
     </tr>
     <tr>
       <th>Visible?</th>
-      <td><%= @subject.visible ? 'true' : 'false' %></td>
+      <td><%= @section.visible ? 'true' : 'false' %></td>
     </tr>
     <tr>
       <th>content Type</th>
-      <td><%= @subject.content_type %></td>
+      <td><%= @section.content_type %></td>
     </tr>
     <tr>
       <th>Page</th>
@@ -28,23 +28,23 @@
         <table summary="Page detail view">
           <tr>
             <th>Name</th>
-            <td><%= @subject.subject.name %></td>
+            <td><%= @section.page.name %></td>
           </tr>
           <tr>
             <th>Position</th>
-            <td><%= @subject.subject.position %></td>
+            <td><%= @section.page.position %></td>
           </tr>
           <tr>
             <th>Visible?</th>
-            <td><%= @subject.subject.visible ? 'true' : 'false' %></td>
+            <td><%= @section.page.visible ? 'true' : 'false' %></td>
           </tr>
           <tr>
             <th>Created</th>
-            <td><%= @subject.subject.created_at %></td>
+            <td><%= @section.page.created_at %></td>
           </tr>
           <tr>
             <th>Updated</th>
-            <td><%= @subject.subject.updated_at %></td>
+            <td><%= @section.page.updated_at %></td>
           </tr>
         </table>
 
@@ -52,11 +52,11 @@
     </tr>
     <tr>
       <th>Created</th>
-      <td><%= @subjec.subject.created_at %></td>
+      <td><%= @section.created_at %></td>
     </tr>
     <tr>
       <th>Updated</th>
-      <td><%= @subject.updated_at %></td>
+      <td><%= @section.updated_at %></td>
     </tr>
   </table>
 

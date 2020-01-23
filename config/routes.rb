@@ -41,7 +41,7 @@ Rails.application.routes.draw do
 
   get 'page_controller/new'
 
-  root 'demo#index'
+  root 'pages#index'
 
   resources :subjects do
     member do
